@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#FFC80F" >
+    
+    <!-- Applicaiton header -->
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="8pt"
+        android:background="#000000"
+        android:textColor="#FFC80F" 
+        android:gravity="center"
+        android:text="Hungry Bubbles"
+        android:textSize="16pt" />
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true" >
+        
+	    <TextView 
+	        android:id="@+id/total_wins_label"
+            android:textColor="#000000"
+	        android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+	        android:text="Total Games Won:"
+	        android:padding="5pt"
+            android:gravity="center" />    
+        
+	    <TextView 
+	        android:id="@+id/total_wins_display"
+            android:textColor="#000000"
+	        android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+	        android:padding="5pt"
+	        android:layout_marginBottom="10pt"
+            android:gravity="center" />    
+        
+	    <TextView 
+	        android:id="@+id/total_games_label"
+            android:textColor="#000000"
+	        android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+	        android:text="Total Games Played:"
+	        android:padding="5pt"
+            android:gravity="center" />    
+        
+	    <TextView 
+	        android:id="@+id/total_games_display"
+            android:textColor="#000000"
+	        android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+	        android:padding="5pt"
+	        android:layout_marginBottom="20pt"
+            android:gravity="center" />
+	    
+	    <Button 
+	        android:id="@+id/return_button"
+            android:background="#000000"
+            android:textColor="#FFC80F"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+	        android:text="Return"
+            android:padding="5pt"
+            android:gravity="center" /> 
+
+    </LinearLayout>
+</RelativeLayout>
